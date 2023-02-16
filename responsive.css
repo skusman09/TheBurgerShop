@@ -1,0 +1,205 @@
+/* Large desktop */
+@media (min-width: 1000px) and (max-width: 1128px) {
+	.wrapper {
+		width: 1000px;
+		background: linear-gradient(rgba(255, 166, 0, 0.281), white, rgba(0, 255, 0, 0.115));
+	}
+
+	.container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.site-header {
+		background-position: right -350px top;
+	}
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 999px) {
+
+	.featured-foods-burger,
+	.container,
+	.main-header,
+	.footer {
+		width: 750px;
+	}
+
+
+	.wrapper {
+		width: 750px;
+		background: linear-gradient(rgba(255, 166, 0, 0.281), white, rgba(0, 255, 0, 0.115));
+		/* background: #FFFFFF; */
+	}
+
+	.container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.dinein-container {
+		width: 310px;
+	}
+
+	.images img {
+		height: auto;
+		width: 100%;
+	}
+
+	.imgs {
+		display: inline-block;
+		position: static;
+		width: 200px;
+	}
+
+	.imgs>img {
+		width: 100%;
+	}
+
+	a[href^=tel] {
+		color: inherit;
+		text-decoration: inherit;
+		font-size: inherit;
+		font-style: inherit;
+		font-weight: inherit;
+	}
+
+	.post-wrap .post-price {
+		font-size: 20px;
+	}
+
+	.main-navigation:focus {
+		outline: none;
+	}
+
+	.site-header {
+		background-position: right -413px top;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+	.main-header,
+	.footer {
+		width: 96%;
+		padding: 0 2%;
+	}
+
+	.wrapper {
+		width: 100%;
+		/* background: #FFFFFF; */
+		background: linear-gradient(rgba(255, 166, 0, 0.281), white, rgba(0, 255, 0, 0.115));
+	}
+
+	.container {
+		width: 96%;
+		padding: 0 2%;
+	}
+
+	.site-header {
+		height: 390px;
+		width: 100%;
+	}
+
+	.main-header {
+		height: 300px;
+	}
+
+	.about-burgers-container .textwidget>h2 {
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+
+	.about-burgers-container .textwidget>a {
+		display: block;
+		width: 100%;
+	}
+
+	.featured-foods-burger-contents {
+		margin-bottom: 25px;
+	}
+
+	.dinein-container {
+		display: block;
+		margin-top: 20px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.address-footer {
+		float: none;
+		width: 100%;
+	}
+
+	.contact-right {
+		float: none;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.footer {
+		padding-top: 20px;
+	}
+
+	.dinein-container .textwidget {
+		width: 100%;
+	}
+
+	.forward-serving {
+		font-size: 21px;
+		font-weight: 400;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.images img {
+		height: auto;
+		width: 100%;
+	}
+
+	.imgs {
+		display: block;
+		margin: 0 auto;
+		position: static;
+		text-align: center;
+		width: 230px;
+	}
+
+	.imgs>img {
+		width: 100%;
+	}
+
+	.site-header {
+		background-position: right -330px top;
+		height: 300px;
+		background-size: cover;
+	}
+
+	.site-footer {
+		padding-bottom: 20px;
+	}
+
+	.entry-title {
+		text-align: center;
+		font-size: 35px;
+	}
+
+	.weight-bold {
+		display: block;
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 1px;
+		text-align: center;
+	}
+
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	/* ... */
+}
